@@ -1,6 +1,23 @@
-# Convertersite
+# About
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+github project for a website where you can convert youtube (and later on other social media) videos to mp3/mp4
+
+## **Commit Conventions**
+**Feat** or ✨: _Describes a feature_
+
+**Fix** or 🩹: _Describes the fix_
+
+**Change** or 🛠️: _Describes the change_
+
+**Breaking Change** or 💥: _Describes a change that breaks previous structure_
+
+**Chore** or 🧹: _Describes a chore u did. Our hero! thank you for your service champ_
+
+**Adds Dependency** or ➕: _Describes adding a dependency_
+
+**Adds Dependency** or ➖: _Describes adding a dependency_
+
+**Work in progress** or 🚧: _Describes something you didnt quite finish_
 
 ## Development server
 
