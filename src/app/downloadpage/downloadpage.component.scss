@@ -5,23 +5,43 @@ $gray: #9b9b9b;
 
 .btn-primary{
   margin-left: 95%;
+  margin-top: 10px;
 }
+
+footer{
+  font-family: "Roboto", sans-serif;
+}
+
 
 .navbar-brand{
   text-align: center;
   padding-left: 10px;
   font-weight: bold;
   display: inline-block;
+
 }
 
 .border{
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-primary {
+    margin-left: auto;
+  }
 }
 
 .form_group{
   padding-top: 100px;
+  background-color: #36454F;
+  padding-bottom: 10px;
+}
+
+.form-control{
 
 }
+
 
 
 
