@@ -1,16 +1,14 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { DownloadpageComponent } from './downloadpage/downloadpage.component';
-import { DownloadComponent } from './downloadpage/download/download.component';
-import { NavbarComponent } from './downloadpage/navbar/navbar.component';
+import {AppComponent} from './app.component';
+import {Y2mHomeComponent} from './y2m-home/y2m-home.component';
+import {NavbarComponent} from "./y2m-home/navbar/navbar.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    DownloadpageComponent,
-    DownloadComponent,
+    Y2mHomeComponent,
     NavbarComponent
   ],
   imports: [
@@ -19,4 +17,5 @@ import { NavbarComponent } from './downloadpage/navbar/navbar.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
